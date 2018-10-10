@@ -1,3 +1,5 @@
+import sys
+
 # 指定增量
 for i in range(0, 10, 3):
     print(i);
@@ -13,3 +15,13 @@ lists = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 it = iter(lists);
 for i in it:
     print(i);
+
+# next()函数迭代遍历
+ss = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+its = iter(ss);
+while True:
+    try:
+        print("-----", next(its));
+    except StopIteration:
+        sys.exit();
