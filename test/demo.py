@@ -7,9 +7,21 @@ while b < 10:
     a, b = b, a+b
 
 # 条件语句 条件如果为0则为false
-number = 1;
+number = 0;
 
 if number:
     print("*******");
 else:
     print("看看看看");
+
+
+num = 1;
+while num == 1:
+    inNum = int(input("输入一个数字："));
+
+    print(num)
+
+    if inNum == 0:
+        break;
+
+
