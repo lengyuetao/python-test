@@ -56,3 +56,8 @@ def three(a,b,*,c):
 
 
 three(23,23,c=10292)
+
+
+# lambda函数
+values = lambda param1, param2: param1+param2
+print(values(10, 39));
